@@ -1,0 +1,67 @@
+.Projects {
+    overflow-x: scroll;
+    letter-spacing: 0.3px;
+    align-items: flex-start;
+    overflow-x: hidden;
+    ul {
+        margin-top: 3%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        li {
+            font-size: 0.8em;
+            width: 400px;
+
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+
+            video {
+                border-radius: 6px;
+                background-color: rgb(201, 201, 201);
+            }
+            div {
+                a {
+                    color: black;
+                    margin: 5px;
+                    display: flex;
+
+                    justify-content: space-evenly;
+                    text-decoration: none;
+                    h3 {
+                        align-self: center;
+                        font-size: 1.4em;
+                    }
+                    img {
+                    }
+                    &:hover {
+                        color: rgb(70, 70, 70);
+                        text-decoration: underline;
+                    }
+                }
+
+                p {
+                    text-align: justify;
+
+                    text-indent: 30px;
+                }
+            }
+        }
+    }
+    @media (max-width: 650px) {
+        li {
+            align-items: center;
+        }
+        video {
+            width: 90%;
+        }
+        p{
+           padding: 20px;
+           
+        }
+        
+    }
+}

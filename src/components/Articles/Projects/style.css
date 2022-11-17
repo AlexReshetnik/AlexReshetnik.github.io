@@ -1,0 +1,56 @@
+.Projects {
+  overflow-x: scroll;
+  letter-spacing: 0.3px;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+.Projects ul {
+  margin-top: 3%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.Projects ul li {
+  font-size: 0.8em;
+  width: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.Projects ul li video {
+  border-radius: 6px;
+  background-color: rgb(201, 201, 201);
+}
+.Projects ul li div a {
+  color: black;
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.Projects ul li div a h3 {
+  align-self: center;
+  font-size: 1.4em;
+}
+.Projects ul li div a:hover {
+  color: rgb(70, 70, 70);
+  text-decoration: underline;
+}
+.Projects ul li div p {
+  text-align: justify;
+  text-indent: 30px;
+}
+@media (max-width: 650px) {
+  .Projects li {
+    align-items: center;
+  }
+  .Projects video {
+    width: 90%;
+  }
+  .Projects p {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

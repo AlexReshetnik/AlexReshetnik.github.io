@@ -1,0 +1,34 @@
+.Contacts {
+  left: -5%;
+  padding: 0;
+}
+.Contacts ul li {
+  margin: 20px;
+  list-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.Contacts ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Contacts ul li a span {
+  letter-spacing: 1.2px;
+  color: black;
+  font-size: 1.7em;
+}
+.Contacts ul li:hover {
+  transition: 0.2 ease-out;
+  transform: scale(1.1);
+}
+.Contacts ul li:active {
+  opacity: 0.7;
+}
+@media (max-width: 768px) {
+  .Contacts {
+    left: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */

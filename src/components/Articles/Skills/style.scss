@@ -1,0 +1,68 @@
+.Skills{
+    letter-spacing: 0.8px;
+
+    flex-direction: row;
+    padding: 8% 0 8% 10%;
+
+    gap: 15%;
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            width: fit-content;
+            margin: 5px;
+            &:nth-of-type(1) {
+                list-style: none;
+                position: relative;
+                right: 40px;
+            }
+            h3 {
+                list-style: none;
+            }
+        }
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        ul {
+            ul {
+                display: flex;
+                flex-direction: column;
+
+                margin: 20px;
+                li {
+                    margin: 5px;
+                    &:nth-of-type(1) {
+                        list-style: none;
+                        position: relative;
+                        right: 40px;
+                    }
+                    h3 {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 650px) and(max-width: 768px) {
+      
+    }
+    @media (min-width: 100px) and(max-width: 650px) {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column !important;
+        padding: 8% 0 8% 15%;
+        gap: 30px;
+        div{
+            gap: 30px;
+        }
+    }
+    @media (max-height: 830px) {
+        align-items: flex-start;
+        li {
+            margin: 3px !important;
+        }
+    }
+}

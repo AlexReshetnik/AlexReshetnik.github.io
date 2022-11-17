@@ -1,0 +1,35 @@
+.Contacts {
+    left: -5%;
+    padding: 0 ;
+    ul {
+        li {
+            margin: 20px;
+            list-style: none;
+            width: fit-content;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                img {
+                }
+                span {
+                    letter-spacing: 1.2px;
+                    color: black;
+                    font-size: 1.7em;
+                }
+            }
+            &:hover {
+                transition: 0.2 ease-out;
+                transform: scale(1.1);
+            }
+            &:active {
+                opacity: 0.7;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+         left: 0%;
+    }
+}

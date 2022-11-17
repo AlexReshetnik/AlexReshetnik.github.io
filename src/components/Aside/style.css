@@ -1,0 +1,126 @@
+aside {
+  letter-spacing: 1.6px;
+  z-index: 5;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.8039215686);
+  height: 100vh;
+  border-right: 1px solid rgba(0, 0, 0, 0.384);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+aside menu {
+  position: relative;
+  top: -6%;
+  font-size: 1.2em;
+  padding: 40px;
+}
+aside menu h1 {
+  font-weight: 600;
+  font-size: 2.6em;
+  margin: 15px;
+  margin-bottom: 12%;
+}
+aside menu nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+aside menu nav li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.3s;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120%;
+}
+aside menu nav li:hover {
+  color: rgb(0, 0, 0);
+}
+aside menu nav li:active {
+  color: rgb(0, 0, 0);
+}
+aside menu nav li[cheked=true] {
+  font-weight: 400;
+  font-size: 120%;
+  color: rgb(0, 0, 0);
+  transform: translateX(40px) scale(1.2);
+}
+aside menu nav li img {
+  margin-right: 9px;
+}
+@media (max-width: 1300px) {
+  aside menu {
+    padding: 5px;
+  }
+  aside menu li {
+    font-size: 90% !important;
+  }
+}
+@media (max-width: 992px) {
+  aside menu {
+    padding: 0px;
+    font-size: 100% !important;
+  }
+  aside menu li[cheked=true] {
+    transform: scale(1.1) !important;
+  }
+  aside menu img {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 768px) {
+  aside menu {
+    /*li[cheked="true"] {
+        font-weight: 500 !important;
+        transform: translateX(0px) scale(1.1) !important;
+    }*/
+  }
+  aside menu h1 {
+    display: none;
+  }
+  aside menu span {
+    display: none;
+  }
+  aside menu li {
+    margin-bottom: 2px !important;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+  }
+  aside menu li img {
+    margin-right: 0px !important;
+  }
+  aside menu img {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (max-width: 992px) {
+  aside {
+    letter-spacing: normal;
+  }
+  aside menu {
+    margin: 5px;
+  }
+}
+@media (max-width: 768px) {
+  aside menu {
+    padding: 6px !important;
+    top: 0px !important;
+  }
+  aside menu * {
+    font-size: 120% !important;
+  }
+  aside menu li img {
+    height: 23px;
+    width: 23px;
+  }
+}/*# sourceMappingURL=style.css.map */

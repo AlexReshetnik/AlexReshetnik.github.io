@@ -1,0 +1,65 @@
+.Skills {
+  letter-spacing: 0.8px;
+  flex-direction: row;
+  padding: 8% 0 8% 10%;
+  gap: 15%;
+}
+.Skills ul {
+  display: flex;
+  flex-direction: column;
+}
+.Skills ul li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 5px;
+}
+.Skills ul li:nth-of-type(1) {
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+.Skills ul li h3 {
+  list-style: none;
+}
+.Skills div {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.Skills div ul ul {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.Skills div ul ul li {
+  margin: 5px;
+}
+.Skills div ul ul li:nth-of-type(1) {
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+.Skills div ul ul li h3 {
+  list-style: none;
+}
+@media (min-width: 100px) and (max-width: 650px) {
+  .Skills {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column !important;
+    padding: 8% 0 8% 15%;
+    gap: 30px;
+  }
+  .Skills div {
+    gap: 30px;
+  }
+}
+@media (max-height: 830px) {
+  .Skills {
+    align-items: flex-start;
+  }
+  .Skills li {
+    margin: 3px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

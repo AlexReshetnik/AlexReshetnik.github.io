@@ -1,0 +1,153 @@
+.Introduction {
+  left: -5%;
+  flex-direction: column;
+  gap: 5%;
+  z-index: 2;
+  padding: 5%;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+.Introduction .bloc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.Introduction .bloc .photo img {
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px 0px #ffffff;
+}
+.Introduction .bloc .description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Introduction .bloc .description .item h1 {
+  font-weight: 600;
+  font-size: 2.3em;
+  margin: 10px;
+}
+.Introduction .bloc .description .item h2 {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.Introduction .bloc .description .item h4 {
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  font-size: 1em;
+}
+.Introduction .bloc .description .item h5 {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.Introduction .lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.Introduction .lists div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.Introduction .lists div h4 {
+  font-weight: 700;
+  align-items: center;
+  text-align: end;
+  width: 350px;
+}
+.Introduction .lists div ul {
+  list-style: disc inside;
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .Introduction {
+    left: 0;
+    padding: 10% 5% 10% 5%;
+  }
+  .Introduction img {
+    height: 300px;
+    width: 300px;
+  }
+  .Introduction .bloc {
+    gap: 10px;
+  }
+  .Introduction h4 {
+    width: 200px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .Introduction {
+    left: 0;
+    padding: 10% 5% 10% 5%;
+  }
+  .Introduction img {
+    height: 300px;
+    width: 300px;
+  }
+  .Introduction .bloc {
+    gap: 10px;
+  }
+  .Introduction h4 {
+    width: 100px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 992px) {
+  .Introduction {
+    left: 0;
+    padding: 10% 5% 10% 5%;
+  }
+  .Introduction img {
+    height: 250px;
+    width: 250px;
+  }
+  .Introduction .bloc {
+    gap: 0px;
+  }
+  .Introduction .lists {
+    gap: 3px;
+  }
+  .Introduction .lists div {
+    margin: 5px;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .Introduction h4 {
+    text-align: start !important;
+    width: 250px !important;
+  }
+}
+@media (min-width: 100px) and (max-width: 650px) {
+  .Introduction {
+    left: 0;
+    padding: 10% 5% 10% 5%;
+  }
+  .Introduction img {
+    height: 250px;
+    width: 250px;
+  }
+  .Introduction .bloc {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .Introduction h1 {
+    font-size: 2.9em !important;
+  }
+  .Introduction h2 {
+    font-size: 1.6em !important;
+  }
+  .Introduction .lists {
+    gap: 3px;
+  }
+  .Introduction .lists div {
+    margin: 5px;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .Introduction h4 {
+    text-align: start !important;
+    width: 250px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
