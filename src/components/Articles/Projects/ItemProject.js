@@ -1,7 +1,8 @@
 import data from './data';
 import github from '../../../res/icons/contacts/github.png'
+
 export default function ItemProject({ Item }) {
-    let [item, index] = Item;
+    let [item, index] = Item;   
     return (
         <li key={item.title.toString()}>
             <video controls name="media" width="400px">

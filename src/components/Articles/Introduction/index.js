@@ -1,11 +1,11 @@
 import './style.css';
-
+import photo from '../../../res/photo/main3.png'
 export default function Introduction() {
     return (
         <article data-page_id="Introduction" cheked="true" className="Introduction">
             <div className="bloc">
                 <div className="photo">
-                    <img src="D:/vsCode Project/Summary_React/src/res/photo/main3.png" alt="" width="380px" height="400px"></img>
+                    <img src={photo} alt="" width="380px" height="400px"></img>
                 </div>
                 <div className="description">
                     <div className="item">

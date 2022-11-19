@@ -4,39 +4,32 @@ import Introduction from '../Articles/Introduction';
 import Skills from '../Articles/Skills';
 import Projects from '../Articles/Projects';
 import Contacts from '../Articles/Contacts';
+import React, { Component } from 'react';
 
-function handlerLoad(e) {
-  if (e.type == "load") {
-    let aside = document.querySelector('aside')
-    let main = document.querySelector('main')
-    let styleAside = getComputedStyle(aside)
-    if (document.body.clientWidth > 768) {
-      main.style.marginLeft = styleAside.width
-    }
-    window.onresize = (e) => {
-      styleAside = getComputedStyle(aside)
 
-      if (document.body.clientWidth > 768) {
-
-        main.style.marginLeft = styleAside.width
-      } else {
-        main.style.marginLeft = "0px"
-      }
-    }
+class Main extends Component {
+  componentWillReceiveProps() {
+    console.log("componentWillReceiveProps");
+  }
+  componentDidUpdate() {
+    console.log("componentDidUpdate");
+  }
+  componentDidMount(e) {
+    console.log("componentDidMount");
+  }
+  render() {
+    console.log("render");
+    return (
+      <main>
+        <section>
+          <Introduction />
+          <Skills />
+          <Projects />
+          <Contacts />
+        </section>
+      </main>
+    )
   }
 }
-
-export default function Main() {
-  return (
-    <main onLoad={handlerLoad} >
-      <section>
-        <Introduction />
-        <Skills />
-        <Projects />
-        <Contacts />
-      </section>
-    </main>
-  );
-}
-
+export default Main;
 
