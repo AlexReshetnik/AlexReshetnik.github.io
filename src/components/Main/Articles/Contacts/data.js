@@ -1,11 +1,9 @@
-import smartphone from '../../../res/icons/contacts/smartphone.png'
-import skyline from '../../../res/icons/contacts/skyline.png'
-import pinterest from '../../../res/icons/contacts/pinterest.png'
-import telegram from '../../../res/icons/contacts/telegram.png'
-import mail from '../../../res/icons/contacts/mail.png'
-import github from '../../../res/icons/contacts/github.png'
-
-
+import smartphone from '../../../../res/icons/contacts/smartphone.png'
+import skyline from '../../../../res/icons/contacts/skyline.png'
+import pinterest from '../../../../res/icons/contacts/pinterest.png'
+import telegram from '../../../../res/icons/contacts/telegram.png'
+import mail from '../../../../res/icons/contacts/mail.png'
+import github from '../../../../res/icons/contacts/github.png'
 
 export default [
     {

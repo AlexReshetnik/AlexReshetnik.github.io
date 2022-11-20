@@ -1,4 +1,5 @@
-export default function ItemList({Item}) {
+import React from 'react';
+export default function ItemList({ Item }) {
     let [title, index] = Item;
 
     return (

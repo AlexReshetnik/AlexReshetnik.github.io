@@ -1,11 +1,11 @@
-import tourism_company from "../../../res/video/tourism-company.mov"
-import Method_kruskala from "../../../res/video/Method_kruskala.mov"
-import Game_aim_training from "../../../res/video/Game_aim_training.mov"
-import Calendar_TODO from "../../../res/video/Calendar_TODO.mov"
-import Extensions_Age_go from "../../../res/video/Extensions_Age_go.mov"
-import Extension_ToDo from "../../../res/video/Extension_ToDo.mov"
-import Sheets_API_Quickstart from "../../../res/video/Sheets_API_Quickstart.mov"
-import Google_authentication from "../../../res/video/Google_authentication.mov"
+import tourism_company from "../../../../res/video/tourism-company.mov"
+import Method_kruskala from "../../../../res/video/Method_kruskala.mov"
+import Game_aim_training from "../../../../res/video/Game_aim_training.mov"
+import Calendar_TODO from "../../../../res/video/Calendar_TODO.mov"
+import Extensions_Age_go from "../../../../res/video/Extensions_Age_go.mov"
+import Extension_ToDo from "../../../../res/video/Extension_ToDo.mov"
+import Sheets_API_Quickstart from "../../../../res/video/Sheets_API_Quickstart.mov"
+import Google_authentication from "../../../../res/video/Google_authentication.mov"
 
 export default [
     {

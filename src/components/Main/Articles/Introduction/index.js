@@ -1,8 +1,9 @@
 import './style.css';
-import photo from '../../../res/photo/main3.png'
-export default function Introduction() {
+import photo from '../../../../res/photo/main3.png'
+import React from 'react';
+export default function Introduction(props) {
     return (
-        <article data-page_id="Introduction" cheked="true" className="Introduction">
+        <article data-page_id="Introduction" cheked={props.cheked} className="Introduction">
             <div className="bloc">
                 <div className="photo">
                     <img src={photo} alt="" width="380px" height="400px"></img>
