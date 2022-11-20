@@ -11,6 +11,9 @@ export default [
             "Bootstrap",
             "Responsive template",
             "JS ES6",
+            "Node.js Express",
+            "React / JSX VirtualDom LifeCycle Hookc",
+            "Redux",
             "(BDD) Mocha.js",
             "WebStorage",
             "Patterns",
@@ -20,8 +23,7 @@ export default [
             "REST API",
             "Photoshop",
             "Chrome extensions",
-            "OAuth 2.0",
-            "Node.js Express (used twice)"
+            "OAuth 2.0"
         ]
     },
     {
@@ -45,7 +47,7 @@ export default [
             "C++ : Cocos2d / Qt",
             "C# &nbsp :&nbspWinows Form / Unity",
             "Java : Android Studio / Spring",
-            "Pyton",
+            "Pyton : NumРy",
             "Php : Laravel",
             "SQL"
         ]
