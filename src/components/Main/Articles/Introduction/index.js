@@ -16,7 +16,7 @@ export default function Introduction(props) {
                     <div className="item">
                         <h4>Languages</h4>
                         Ukrainian - Homely<br></br>
-                        English- A2 (there is a desire to raise it to B2)<br></br>
+                        English- A2 (completed conversational English courses / there is a desire to raise it to B2)<br></br>
                         Russian - Auditory (I'd rather not know)<br></br>
                     </div>
 
@@ -33,17 +33,14 @@ export default function Introduction(props) {
                 <div>
                     <h4>My vision of the perfect job</h4>
                     <ul>
-                        <li data-animation="start" data-sequence="1">Independent or group creation of the entire
-                            front end part</li>
-                        <li data-animation="start" data-sequence="2">With responsibility for UI/UX and functional
-                            component</li>
+                        <li data-animation="start" data-sequence="1">Independent or group creation of the entirefront end part</li>
+                        <li data-animation="start" data-sequence="2">With responsibility for UI/UX and functionalcomponent</li>
                     </ul>
                 </div>
                 <div>
                     <h4>The main goal at work</h4>
                     <ul>
-                        <li data-animation="start" data-sequence="3">Gain expertise in solving difficult problems
-                        </li>
+                        <li data-animation="start" data-sequence="3">Gain expertise in solving difficult problems</li>
                         <li data-animation="start" data-sequence="4">Learn new technologies</li>
                         <li data-animation="start" data-sequence="5">Practice teamwork</li>
                     </ul>
@@ -52,17 +49,14 @@ export default function Introduction(props) {
                     <h4>My super powers</h4>
                     <ul>
                         <li data-animation="start" data-sequence="6">I quickly understand new technology</li>
-                        <li data-animation="start" data-sequence="7">I can perform a large amount of work in a short
-                            period of time
-                        </li>
+                        <li data-animation="start" data-sequence="7">I can perform a large amount of work in a shortperiod of time</li>
                         <li data-animation="start" data-sequence="8">I'm stubbornly going to the goal</li>
                     </ul>
                 </div>
                 <div>
                     <h4>I like</h4>
                     <ul>
-                        <li data-animation="start" data-sequence="9">Create beautiful and convenient applications
-                        </li>
+                        <li data-animation="start" data-sequence="9">Create beautiful and convenient applications</li>
                     </ul>
                 </div>
             </div>
